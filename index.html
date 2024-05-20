@@ -12,6 +12,26 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+  <div id="loader-container">
+    <div class="text">
+      <p>Get Ready to Sign up</p>
+    </div>
+    <div class="loader">
+      
+    </div>
+  </div>
   <form id="form">
     <h1>Sign up</h1>
     <div class="input-box">
@@ -44,5 +64,12 @@
         <i class="fa-brands fa-google"></i>
       </div
   </form>
+  
+ <script>
+  let loader = document.getElementById("loader-container")
+   window.addEventListener("load",function(){
+     loader.classList.toggle("toggle-loader")
+   })
+ </script>
 </body>
 </html>
