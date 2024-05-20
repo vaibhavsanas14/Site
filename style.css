@@ -8,7 +8,7 @@
 }
 
 :root{
-  --primary-color: #E65C19;
+  --primary-color: #EE6655;
 }
 
 body{
@@ -47,6 +47,7 @@ input,button{
   padding: 5px 15px;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  background: #fff;
 }
 
 #form h1{
@@ -73,6 +74,7 @@ input{
   border: 1px solid rgba(0,0,0,0.2);
   padding: 0 45px 0 10px;
   border-radius: 5px;
+  font-weight: 600;
 }
 
 
