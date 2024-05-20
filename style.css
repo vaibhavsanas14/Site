@@ -50,14 +50,14 @@ form{
   background: #fff;
 }
 
-#form h1{
+form h1{
   margin: 8px 0 30px 0;
   width: 100%;
   text-align: center;
   position: relative;
 }
 
-#form h1::before{
+form h1::before{
   content: "";
   position: absolute;
   width: 20%;
