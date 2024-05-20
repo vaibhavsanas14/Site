@@ -36,7 +36,7 @@ input,button{
 
 /* Form Start */
 
-#form{
+form{
   width: 360px;
   height: auto;
   display: flex;
