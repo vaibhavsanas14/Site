@@ -15,7 +15,7 @@ body{
   gap: 20px;
   min-height: 100vh;
   transition: .4s ease-out;
-  background: black;
+  background: white;
 }
 
 .container{
